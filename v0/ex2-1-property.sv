@@ -46,6 +46,14 @@ else $display($stime,,,"\t\RESET CHECK FAIL:: rst_=%b data_out=%0d \n",
  * ------------------------------------ */
 
 `ifdef check2
+property validi_to_valido;
+   @(posedge clk) disable iff (rst) validi [*3] |=> valido;
+endproperty
+
+validi_to_valido_check: assert property(validi_to_valido)
+   $display($stime,,,"\t\tCHECK 2 PASS\n");
+else $display($stime,,,"\t\tCHECK 2 FAIL\n");
+
 `endif
 
 /* ------------------------------------
@@ -57,6 +65,13 @@ else $display($stime,,,"\t\RESET CHECK FAIL:: rst_=%b data_out=%0d \n",
  * ------------------------------------ */
 
 `ifdef check3
+property valido_no_glitch;
+   @(posedge clk) disable iff (rst) valido |-> $past(validi, 1) && $past(validi, 2) && $past(validi, 3);
+endproperty
+
+valido_no_glich_check: assert property(valido_no_glitch)
+else $display($stime,,,"\t\tCHECK 3 FAIL\n");
+
 `endif
 
 /* ------------------------------------
@@ -68,6 +83,15 @@ else $display($stime,,,"\t\RESET CHECK FAIL:: rst_=%b data_out=%0d \n",
  * ------------------------------------ */
 
 `ifdef check4
+property data_out_correct;
+   @(posedge clk) disable iff (rst) valido |-> 
+      data_out == $past(data_in, 3) * $past(data_in, 2) + $past(data_in, 1);
+endproperty
+
+data_out_correct_check: assert property(data_out_correct)
+   $display($stime,,,"\t\tCHECK 4 PASS\n");
+else $display($stime,,,"\t\tCHECK 4 FAIL\n");
+
 `endif
 
 endmodule
