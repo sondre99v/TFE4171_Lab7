@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/courses/desdigsys2/2019s/dds219s11/ex-2/lab7/v0
+T_opt
+!s110 1549894169
+VVz6JfB4LNVPOh]W<D;C=B3
+04 10 4 work test_ex2_1 fast 0
+=1-90b11c1d54d8-5c618219-25996-6b73
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5c;63
+vex2_1
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1549894167
+!i10b 1
+!s100 PPlKV6LAAFX;7Hh0N4V8F3
+Iz;VGXGLMKSNcb8kM3KTXN3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ex22d1_v_unit
+S1
+R0
+w1549894165
+8ex2-1.v
+Fex2-1.v
+L0 12
+Z5 OL;L;10.5c;63
+r1
+!s85 0
+31
+Z6 !s108 1549894167.000000
+Z7 !s107 test-ex2-1.sv|ex2-1-property.sv|ex2-1.v|
+Z8 !s90 -sv|ex2-1.v|ex2-1-property.sv|test-ex2-1.sv|+acc|+cover|+define+check5|
+!i113 0
+Z9 !s102 +cover
+Z10 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv +acc +cover +define+check5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vex2_1_property
+R2
+R3
+!i10b 1
+!s100 Z`QI1=[=169oR0hChS;bY3
+I2`i^5k4]^UD8jj1Cd]dU42
+R4
+!s105 ex22d12dproperty_sv_unit
+S1
+R0
+w1549891929
+8ex2-1-property.sv
+Fex2-1-property.sv
+L0 11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+R1
+vtest_ex2_1
+R2
+R3
+!i10b 1
+!s100 ^Q8YIzhGIdM>:O:@O@Ob62
+In2^b]T^W6bV<N3oI]K2]e3
+R4
+!s105 test2dex22d1_sv_unit
+S1
+R0
+w1549892013
+8test-ex2-1.sv
+Ftest-ex2-1.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+R1
