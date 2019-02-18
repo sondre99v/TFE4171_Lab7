@@ -1,0 +1,62 @@
+COVERGROUP COVERAGE:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status                Persistent Memory   Transient Memory     Peak Transient    PeakTransMemory 
+                                                                                                                                                Memory              Time  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /test_ex2_1/alu_cg                                20.8%        100    Uncovered                         4.3KB              1.8KB              3.8KB               0 ns 
+    covered/total bins:                                     4         20                                   4.3KB              1.8KB              3.8KB               0 ns 
+    missing/total bins:                                    16         20                                   4.3KB              1.8KB              3.8KB               0 ns 
+    % Hit:                                              20.0%        100                                   4.3KB              1.8KB              3.8KB               0 ns 
+    Coverpoint alu_cg::opc                              12.5%        100    Uncovered                          592B               688B              2.2KB             330 ns 
+        covered/total bins:                                 1          8                                      na                 na                 na                 na 
+        missing/total bins:                                 7          8                                      na                 na                 na                 na 
+        % Hit:                                          12.5%        100                                      na                 na                 na                 na 
+    Coverpoint alu_cg::ac                               33.3%        100    Uncovered                         1.2KB              1.3KB              1.3KB               5 ns 
+        covered/total bins:                                 2          6                                      na                 na                 na                 na 
+        missing/total bins:                                 4          6                                      na                 na                 na                 na 
+        % Hit:                                          33.3%        100                                      na                 na                 na                 na 
+    Coverpoint alu_cg::bc                               16.6%        100    Uncovered                         1.2KB              1.2KB              1.2KB               5 ns 
+        covered/total bins:                                 1          6                                      na                 na                 na                 na 
+        missing/total bins:                                 5          6                                      na                 na                 na                 na 
+        % Hit:                                          16.6%        100                                      na                 na                 na                 na 
+ Covergroup instance \/test_ex2_1/alu_cg_Inst           20.8%        100    Uncovered                         4.3KB              1.8KB              3.8KB               0 ns 
+    covered/total bins:                                     4         20                                   4.3KB              1.8KB              3.8KB               0 ns 
+    missing/total bins:                                    16         20                                   4.3KB              1.8KB              3.8KB               0 ns 
+    % Hit:                                              20.0%        100                                   4.3KB              1.8KB              3.8KB               0 ns 
+    Coverpoint opc                                      12.5%        100    Uncovered                          592B               688B              2.2KB             330 ns 
+        covered/total bins:                                 1          8                                      na                 na                 na                 na 
+        missing/total bins:                                 7          8                                      na                 na                 na                 na 
+        % Hit:                                          12.5%        100                                      na                 na                 na                 na 
+        bin valid_states[0]                                66          1    Covered                              na                 na                 na                 na 
+        bin valid_states[1]                                 0          1    ZERO                                 na                 na                 na                 na 
+        bin valid_states[2]                                 0          1    ZERO                                 na                 na                 na                 na 
+        bin valid_states[3]                                 0          1    ZERO                                 na                 na                 na                 na 
+        bin valid_states[4]                                 0          1    ZERO                                 na                 na                 na                 na 
+        bin valid_states[5]                                 0          1    ZERO                                 na                 na                 na                 na 
+        bin valid_states[6]                                 0          1    ZERO                                 na                 na                 na                 na 
+        bin valid_states[7]                                 0          1    ZERO                                 na                 na                 na                 na 
+    Coverpoint ac                                       33.3%        100    Uncovered                         1.2KB              1.3KB              1.3KB               5 ns 
+        covered/total bins:                                 2          6                                      na                 na                 na                 na 
+        missing/total bins:                                 4          6                                      na                 na                 na                 na 
+        % Hit:                                          33.3%        100                                      na                 na                 na                 na 
+        bin bin_zero                                        0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_small                                      14          1    Covered                              na                 na                 na                 na 
+        bin bin_hund[0]                                     0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_hund[1]                                     0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_hund[2]                                     0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_large                                      30          1    Covered                              na                 na                 na                 na 
+        default bin bin_others                             22               Occurred                             na                 na                 na                 na 
+    Coverpoint bc                                       16.6%        100    Uncovered                         1.2KB              1.2KB              1.2KB               5 ns 
+        covered/total bins:                                 1          6                                      na                 na                 na                 na 
+        missing/total bins:                                 5          6                                      na                 na                 na                 na 
+        % Hit:                                          16.6%        100                                      na                 na                 na                 na 
+        bin bin_zero                                        0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_small                                      66          1    Covered                              na                 na                 na                 na 
+        bin bin_hund[0]                                     0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_hund[1]                                     0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_hund[2]                                     0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_large                                       0          1    ZERO                                 na                 na                 na                 na 
+        default bin bin_others                              0               ZERO                                 na                 na                 na                 na 
+
+TOTAL COVERGROUP COVERAGE: 20.8%  COVERGROUP TYPES: 1
+COVERGROUP MEMORY USAGE: Total 28.7KB, Peak 28.7KB at time 330 ns for total 3 coverpoints/crosses.

@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/courses/desdigsys2/2019s/dds219s11/ex-2/lab9
+T_opt
+!s110 1550504403
+VQFCbzVYkNPcI4Xe@gE8l20
+04 10 4 work test_ex2_1 fast 0
+=1-90b11c1d54d8-5c6ad1d2-c7a34-5217
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5c;63
+Ealu
+Z2 w1550502017
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8alu.vhd
+Z7 Falu.vhd
+l0
+L5
+V;XLk=NikRH9FS9o]n=f<83
+!s100 `8NP1k[O3M]Il>g@NLOSD2
+Z8 OL;C;10.5c;63
+32
+Z9 !s110 1550504401
+!i10b 1
+Z10 !s108 1550504401.000000
+Z11 !s90 alu.vhd|
+Z12 !s107 alu.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 ;XLk=NikRH9FS9o]n=f<83
+l18
+L13
+V<ZAZ10YzYlhN5g<3zXDFd2
+!s100 =JC;MM@^kjX[CXF:S@Q?93
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+vex2_1
+Z14 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z15 !s110 1550504400
+!i10b 1
+!s100 1HRS9_RSe5[AJh4Ke5zbV1
+I1m1YI]J[c@[EoDmHZ4b5H0
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ex22d1_v_unit
+S1
+R0
+w1550502304
+8ex2-1.v
+Fex2-1.v
+L0 12
+Z17 OL;L;10.5c;63
+r1
+!s85 0
+31
+Z18 !s108 1550504400.000000
+Z19 !s107 ex2-1-property.sv|ex2-1.v|test-ex2-1.sv|
+Z20 !s90 +cover=bcefsx|-sv|test-ex2-1.sv|ex2-1.v|ex2-1-property.sv|
+!i113 0
+Z21 !s102 +cover=bcefsx
+Z22 o+cover=bcefsx -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vex2_1_property
+R14
+R15
+!i10b 1
+!s100 n?e7XaGCh4Y5aAZ<?U^Yl0
+IDeRAEDIdP4hnJBRcQT[PB2
+R16
+!s105 ex22d12dproperty_sv_unit
+S1
+R0
+w1550502383
+8ex2-1-property.sv
+Fex2-1-property.sv
+L0 11
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R1
+vtest_ex2_1
+R14
+R15
+!i10b 1
+!s100 K=6f=WXPQDMQ4hgL<TEoD0
+IckXmiC<@W0z<=e?0@S:ai1
+R16
+!s105 test2dex22d1_sv_unit
+S1
+R0
+w1550503906
+8test-ex2-1.sv
+Ftest-ex2-1.sv
+L0 1
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R1
